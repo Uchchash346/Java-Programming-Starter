@@ -1,5 +1,8 @@
 package basicjava;
-
+/*
+    This is
+    multiple line comment
+*/
 public class BasicJava {
 
     public static void main(String[] args) {
