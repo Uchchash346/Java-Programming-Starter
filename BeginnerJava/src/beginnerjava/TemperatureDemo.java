@@ -8,7 +8,7 @@ public class TemperatureDemo {
         Scanner input = new Scanner(System.in);
         double cels, farn;
 
-        System.out.print("Celsius = ");;
+        System.out.print("Celsius = ");
         cels = input.nextDouble();
 
         farn = 1.8 * cels + 32;
