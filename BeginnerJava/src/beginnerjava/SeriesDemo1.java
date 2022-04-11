@@ -12,7 +12,10 @@ public class SeriesDemo1 {
 //        for (int i = 1; i <= n; i++) {
 //            System.out.print(i + " ");
 //            sum = sum + i;
-//        }(i + "X" + i + " ");
+//        }
+//        System.out.println(sum);
+        for (int i = 1; i <= n; i = i + 1) {
+            System.out.println(i + "X" + i + " ");
             sum = sum + i * i;
         }
         System.out.println();
