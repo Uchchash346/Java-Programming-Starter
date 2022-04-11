@@ -9,10 +9,13 @@ public class SeriesDemo1 {
         int n, sum = 0;
         System.out.print("Enter the last number: ");
         n = input.nextInt();
-        for (int i = 1; i <= n; i++) {
-            System.out.print(i + " ");
-            sum = sum + i;
+//        for (int i = 1; i <= n; i++) {
+//            System.out.print(i + " ");
+//            sum = sum + i;
+//        }(i + "X" + i + " ");
+            sum = sum + i * i;
         }
+        System.out.println();
         System.out.println(sum);
     }
 }
